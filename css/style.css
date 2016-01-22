@@ -1,0 +1,177 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*//////////////////////////////Bulle////////////////////////*/
+.bulle{
+  float: right;
+  background-color: #8080be;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  text-align: center;
+  border: solid 1px black;
+  box-shadow: 0px 20px 40px ;
+  line-height: 100px;
+  padding-top: 5px;
+}
+.bulle i{
+  color:white;
+  font-size: 49px;
+}
+/*//////////////////////////////Bulle////////////////////////*/
+
+.clear{
+  clear:both;
+}
+body{
+ font-family: 'Proxima Nova', sans-serif;
+}
+header{
+  height: 100%;
+  background:url("../images/payments-banner-graphic.png")no-repeat;
+  color:white;
+}
+header img{
+  float: left;
+  width: 25px;
+  height: 25px;
+  margin:0 10px;
+}
+.titre{
+  height: 25px;
+  line-height: 25px;
+  padding: 10px 25px 0 25px;
+}
+.titre-droit{
+  float: right;
+  margin:0 10px;
+}
+.second-titre{
+  padding: 160px 0;
+  color:white;
+  text-align: center;
+  line-height: 60px;
+}
+.bouton{
+  display: inline-block;
+  width: 225px;
+  height: 50px;
+  line-height: 50px;
+  background-color: white;
+  border-radius: 6px;
+  transition: all 1s;
+}
+.bouton a {
+  text-align: center;
+  text-decoration: none;
+  color: #7474a6;
+}
+.bouton:hover{
+  background-color: #7474a6;
+  box-shadow: 0 0 9px white;
+  border-radius: 6px;
+}
+.bouton:hover > a {
+  color:white;
+}
+
+/*//////////////////////////////Partie2//////////////////////////*/
+
+#partie1{
+  padding: 100px 0;
+  color:#766d6d;
+  border-bottom: solid 1px #dddddd;
+}
+#partie1 img{
+  width: 60px;
+  height: 60px;
+}
+#partie1 article{
+  text-align: center;
+  display: inline-block;
+  width: 33%;
+}
+#partie1 h3{
+  padding-top: 15px;
+  font-weight: lighter;
+  line-height: 50px;
+}
+ #partie1 span{
+   font-weight: lighter;
+ }
+.article-partie1{
+  border-left: solid 1px #dddddd; /*séparation des articles*/
+}
+/*//////////////////////////////Partie2//////////////////////////*/
+
+#partie2{
+  text-align: center;
+  padding:100px 0;
+  background-color: #f6f9fb;
+}
+#partie2 h2{
+  font-weight: lighter;
+  color: #766d6d;
+  line-height: 35px;
+}
+#partie2 h1{
+  display: inline-block;
+  padding-bottom: 25px;
+  color:#8080be;
+  font-size: 70px;
+}
+#partie2 .span{
+  display: inline-block;
+  color:#4c535c;
+  font-size: 25px;
+}
+#partie2 p{
+  display: inline-block;
+  color: #dddddd;
+}
+
+/*//////////////////////////////Bandeau Gris Foncé//////////////////////////*/
+#bandeau-gris{
+  text-align: center;
+  background-color: #4c535c;
+  height: 60px;
+  line-height: 60px;
+  color:#dddddd;
+}
+/*//////////////////////////////Bandeau Gris Foncé//////////////////////////*/
+
+#partie-image .partie-img{
+    float:left;
+    width: 50%;
+    background: #7cd5ef;
+    margin-bottom: -5px;
+    border-bottom: solid 1px
+}
+#partie-image img {
+  margin: 100px 30px -15px ;
+  border-radius: 18px 18px 0px 0px;
+}
+.italique{
+  font-style: oblique;
+}
+#partie-image .text{
+  float:right;
+  padding: 120px;
+  width: 50%;
+}
+
+#partie-image .partie-img2{
+  float:left;
+  width: 50%;
+  background: #7cd5ef;
+  margin-bottom: -5px;
+  border-bottom: solid 1px
+}
+.partie-img img {
+  margin: 100px 30px -15px ;
+  border-radius: 18px 18px 0px 0px;
+}
